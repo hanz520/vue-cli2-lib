@@ -15,5 +15,6 @@ const install = function(Vue, opts = {}) {
 export default {
   version: '1.0.0',
   install,
-  ...components
+  componentA,
+  componentB
 }
