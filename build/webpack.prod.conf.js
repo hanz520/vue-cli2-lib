@@ -12,6 +12,7 @@ const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 const env = require('../config/prod.env')
+require("babel-polyfill")   // 引入babel-polyfill
 
 // 打包组件入口
 const components = require('../components.json')

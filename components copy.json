@@ -1,0 +1,5 @@
+{
+  "component-a": ["babel-polyfill", "./packages/component-a/index.js"],
+  "component-b": ["babel-polyfill", "./packages/component-b/index.js"],
+  "index": ["babel-polyfill", "./packages/index.js"]
+}
